@@ -1,2 +1,5 @@
+/vendor/
+sftp-config.json
+/.data/
 data
 npm-debug.log

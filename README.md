@@ -1,20 +1,23 @@
-# HXPHP Framework
+# conclusion
+Completion of Course Work
 
-O HXPHP Ã© um mini-framework PHP.
 
-![QR CODE](http://www.hxphp.com.br/qr.png "QR CODE")
+# ProfileIT Sistema Colaborativo
 
-### Qual Ã© a diferenÃ§a do HXPHP em comparaÃ§Ã£o aos demais frameworks PHP?
+O Sistema ProfileIT é um Sistema Colaborativo.
+
+![QR CODE](http://www.elisandromello.com.br/uploads/qrcode.png "QR CODE")
+
+### Qual o objetivo do Sistema Colaborativo ProfileIT?
 --------------------------------------------------------------------
 
-O HXPHP Framework nÃ£o foi desenvolvido para ser o **framework perfeito**, nem o **framework do cÃ³digo lindo** e sim, na verdade, ser o **primeiro framework** dos programadores PHP. Trata-se de uma ferramenta simples que tem o objetivo nobre de introduzir programadores iniciantes e/ou intermediÃ¡rios ao universo dos frameworks com um primeiro contato fÃ¡cil e produtivo, visto que em poucas horas o programador jÃ¡ Ã© capaz de criar diversas soluÃ§Ãµes, fator este mais do que estimulante.
+A utilização de tecnologia no meio profissional se difunde em todos os segmentos, o que torna imprescindível uma maior demanda na formação de mão de obra qualificada para atender o volume de recursos utilizados. Contudo, proporcionalmente ao número de vagas disponibilizadas no setor, o número de posições não preenchidas também tem crescido exponencialmente. Partindo deste princípio, o objetivo deste trabalho de conclusão de curso é apresentar o desenvolvimento de uma aplicação colaborativa, que possibilite espaço virtual de apresentação de profissionais descrevendo suas experiências, qualificações e competências, no segmento de tecnologia; através do desenvolvimento “front-end” de um sistema em website, com características de rede de relacionamentos, focado no “networking” da área de tecnologia, inicialmente no segmento de infraestrutura, o qual recebe a nomenclatura de: “Sistema Colaborativo de Perfil Profissional - ProfileIT”, a fim de divulgar, através deste, os perfis profissionais e novas possibilidades de vagas disponíveis; visando possibilitar um canal de comunicação entre empresas interessadas e colaboradores buscando recolocação. Como características de arquitetura da solução denotam-se alguns conceitos de tecnologia abordados durante o período de aprendizado da formação de Bacharel em Ciência da Computação; conceitos estes como “Responsive Web Design”, Inteligência Artificial, desenvolvimento “Front-End”, Banco de Dados e Interface Homem Computador.
 
-Lembre-se tambÃ©m que antes de estudar um framework Ã© mais do que recomendado, diria imprescindÃ­vel, o domÃ­nio da linguagem PHP em si. Afinal, independente do framework, vocÃª deve ser um programador PHP.
+Palavras-chave: Dispositivos Móveis, Responsive Web Design, Web, MySql, PHP, Conceito Colaborativo, Inteligência Artificial, Interface Homem Computador.
 
-Te desejo muito sucesso e espero que vocÃª nunca pare de estudar, pois a tecnologia nÃ£o para e nÃ³s, por mais difÃ­cil que seja, devemos acompanhar esta evoluÃ§Ã£o.
+Um forte abraço do seu amigo Elisandro Mello.
 
-Um forte abraÃ§o do seu amigo Bruno Santos.
-
-####Link para documentaÃ§Ã£o:
+####Link para documentação:
 ---------------------------------------------------------------------
-[https://www.hxphp.com.br/documentacao/](http://www.hxphp.com.br/documentacao/).
+[https://www.elisandromello.com.br/assets/profileit_documentation.pdf](http://www.elisandromello.com.br/assets/profileit_documentation.pdf).
+

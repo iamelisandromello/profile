@@ -14,10 +14,5 @@
             "name": "Curso Ciencia da Computação ULBRA",
             "email": "elisandro@ulbra.edu.br"
         }
-    ],
-    "autoload": {
-        "psr-0": {
-            "": ["src/"]
-        }
-    }
+    ]
 }
