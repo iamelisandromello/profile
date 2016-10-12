@@ -1,0 +1,22 @@
+{
+  "name": "profileit-sistema-colaborativo",
+  "version": "1.0.0",
+  "description": "Completion of Course Work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamelisandromello/profile.git"
+  },
+  "author": "Elisandro Mello Correa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamelisandromello/profile/issues"
+  },
+  "homepage": "https://github.com/iamelisandromello/profile#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
