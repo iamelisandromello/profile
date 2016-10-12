@@ -1,0 +1,23 @@
+{
+    "name": "Elisandro/hxphp",
+    "require": {
+        "php-activerecord/php-activerecord": "dev-master",
+        "avbdr/php-bootstrap-form": "dev-master",
+        "verot/class.upload.php": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Elisandro Mello Correa",
+            "email": "iam@elisandromello.com.br"
+        },
+        {
+            "name": "Curso Ciencia da Computação ULBRA",
+            "email": "elisandro@ulbra.edu.br"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": ["src/"]
+        }
+    }
+}
