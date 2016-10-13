@@ -3,4 +3,5 @@ sftp-config.json
 /.data/
 data
 public/bower_components
+public/fontes
 node_modules
