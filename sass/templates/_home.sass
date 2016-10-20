@@ -2,10 +2,27 @@
 @import molecules/textos
 
 header
+	height: 260px
+	min-height: 215px !important
+	margin: 0 0 25px
 	background:
-		image: url('../images/fundo-slide-pagina-inicial.jpg')
+		image: url('../images/fundo_topo_hero.jpg')
 		position: top center
 		repeat: no-repeat
 		color: $preto
 		attachment: fixed
-		size: cover
+
+
+avatar
+	.avatar-bottom
+		+gradient(90deg, $degrade1, $degrade2)
+
+main
+	.about
+		+gradient(90deg, $degrade1, $degrade2)
+
+	.skill
+		background: $cinza-skill
+
+	.presentation
+		background: $branco

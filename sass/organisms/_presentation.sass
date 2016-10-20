@@ -1,0 +1,21 @@
+section.presentation
+	.hero
+		+flexbox
+		+align-items(center)
+		+justify-content(space-around)
+		margin: 115px 0 0 0
+		text-align: center
+		+make-sm-column(6)
+
+		+breakpoint($tablet)
+		
+	.description
+		margin: 175px 0 0 0
+		+make-sm-column(6)
+		text-align: center
+		p
+			+font-size(30px)
+
+		.botao
+			margin: 30px auto
+	

@@ -1,0 +1,31 @@
+@import molecules/textos
+@import organisms/historic
+
+.professional
+	+flexbox
+	+align-items(center)
+	+justify-content(space-around)
+	margin: 115px 0 115px 0	
+	text-align: center
+	+make-sm-column(6)
+	.chronological-table
+		width: 500px
+		height: 400px
+		+gradient(90deg, $gradiente1, $gradiente2)
+
+.academic
+	+flexbox
+	+align-items(center)
+	+justify-content(space-around)
+	margin: 115px 0 115px 0	
+	text-align: center
+	+make-sm-column(6)
+	.curricular-table
+		width: 500px
+		height: 400px
+		+gradient(90deg, $gradiente2, $gradiente1)
+
+.botao
+	margin: 30px auto 0 auto
+	background: #ff2b4a;
+	clear: both
