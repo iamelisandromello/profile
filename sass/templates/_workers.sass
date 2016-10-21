@@ -1,6 +1,6 @@
 section.workers
 	.portfolio
-		padding: 115px 0 115px 0
+		padding: 115px 0 0 0
 		h1
 			font-type: $bold
 			font-size: 40px
@@ -21,10 +21,7 @@ section.workers
 				+make-sm-column(3)
 				+make-xs-column(6)
 				overflow: hidden
-				margin-bottom: 30px
-
-				.double-figure
-					+make-sm-column(6)
+				margin-bottom: 15px
 
 				figure
 					position: relative
@@ -62,7 +59,7 @@ section.workers
 							+transition(.3s)
 
 						.overlay
-							+gradient(60deg, $degrade1, $degrade2)
+							+gradient(60deg, $degrade2, $degrade1)
 							+opacity(.8)
 							position: absolute
 							left: 0
