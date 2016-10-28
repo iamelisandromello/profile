@@ -1,0 +1,80 @@
+@import molecules/textos
+@import organisms/teste
+.reservatorio
+	margin: 0 0 0 0	
+	padding: 0 0 0 0
+
+	h1
+		text-align: left
+		text-transform: uppercase
+		color: $branco
+		font-weight: $bold
+		font-size: 20px
+		padding: 25px 0 25px 0
+
+	p
+		text-align: left
+		text-transform: uppercase
+		color: $branco
+		font-weight: $light
+		font-size: 16px
+		padding: 0 0 25px 0
+
+
+	.envelope
+		margin: 10Px 10Px 10Px 10Px
+		background: $vermelho
+
+		.territorio
+
+			form
+
+				.cols
+					+make-row
+				.col
+					+make-sm-column(12)
+
+				input,
+				select,
+				textarea
+					width: 100%
+					height: 30px
+					background-color: transparent
+					border: 1px solid $branco
+					padding: 7px
+					text-transform: uppercase
+					+transition(.3s)
+
+					&:hover
+						border-color: $azul
+
+					&:focus
+						border-color: $verde
+
+				select
+					height: 37px
+				textarea
+					height: 185px
+
+				button
+					display: table
+					margin: 30px auto 0 auto
+					clear: both
+
+				.botao
+					display: table
+					text-align: left
+					margin: 30px auto 0 auto
+					clear: both
+
+				.bg-success,
+				.bg-danger
+					padding: 7px
+	
+
+	.acessos
+		background: $laranja
+
+		.area
+			+gradient(90deg, $gradiente1, $gradiente2)
+			margin-bottom: 15px

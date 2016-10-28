@@ -1,14 +1,15 @@
 .botao
-	border: 2px solid $preto
-	color: $preto
 	text-transform: uppercase
-	font-weight: $bold
+	font-weight: $regular
 	+transition(.3s)
+	background: $vermelho
+	color: $branco
 	
 	&:hover
-		border-color: $verde
-		color: $verde	
+		border-color: $laranja
+		+gradient(0deg, $butt1, $butt2)
+		color: $laranja
 	
 	&:focus
-		border-color: $azul
-		color: $azul
+		border-color: $preto
+		color: $preto

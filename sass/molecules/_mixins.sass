@@ -1,17 +1,39 @@
-/* ======== Cores */
+/* ======== Paleta de Cores */
 $preto: #000
 $branco: white
 $azul: #31b1e7
 $azul-claro: #cadbdc
 $laranja: orange
 $verde: #9ad15e
+$vermelho: #ff2742
 $cinza-claro: #e1e1e1
 $cinza-skill: #f6f6f6
 
+/* ======== Gradiente Background*/
 $degrade1: #326879
 $degrade2: #776a76
+/* ======== Gradiente Quadros*/
 $gradiente1: #67657c
 $gradiente2: #4f647d
+
+/* ======== Gradiente Dark blue-grey */
+$dark-grey1: #6A7B86 
+$dark-grey2: #424F5A
+
+/* ======== Gradiente Light blue-grey */
+$light-grey1: #EAEFF2
+$light-grey2: #D4DDE4
+
+/* ======== Gradiente Cinza */
+$sand1: #F6F4EC
+$sand2: #D7D3C8
+
+/* ======== Gradiente Button */
+$butt1: #EA3B28
+$butt2: #C13832
+
+
+/* ======== Icones e Molduras */
 $lilas: #8932ad
 $moldura_avatar: #55697c
 
@@ -77,3 +99,15 @@ $paisagem: max-width 767px
 =columns($count: 3, $gap: 10) 
   @include css3-prefix('column-count', $count)
   @include css3-prefix('column-gap', $gap)
+
+/* ======== Ocultar Elementos */
+%visuallyhidden 
+  margin: -1px
+  padding: 0
+  width: 1px
+  height: 1px
+  overflow: hidden
+  clip: rect(0 0 0 0)
+  clip: rect(0, 0, 0, 0)
+  position: absolute
+
