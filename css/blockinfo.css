@@ -1,0 +1,32 @@
+/* ==================================================
+   Info Block
+================================================== */
+
+.info-block {
+    border-left: 2px solid #DE5E60;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+}
+
+.info-text {
+    padding-right: 20%;
+    position: relative;
+}
+
+.info-block h3 {
+    font-size: 24px;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+.info-block p {
+	margin-bottom: 0;	
+}
+
+.info-block a.button {
+    margin-top: -20px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}

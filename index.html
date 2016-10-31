@@ -8,12 +8,17 @@
 		<link rel="stylesheet" href="css/home.css">	
 		<link rel="stylesheet" href="css/general.css">
 		<link rel="stylesheet" href="css/plugins.css">
-		<link rel="stylesheet" href="css/about.css">
-		<link rel="stylesheet" href="css/workers.css">
-
-
+		<link rel="stylesheet" href="css/controlnav.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/blockquotes.css">
+		<link rel="stylesheet" href="css/tooltip.css">
 	</head>
 	<body>
+		<!-- This section is for Splash Screen -->
+		<section id="jSplash">
+			<div id="circle"></div>
+		</section>
+		<!-- End of Splash Screen -->
 
 		<nav class="menu-responsivo">
 			<ul>
@@ -75,12 +80,13 @@
 					</div>
 				</div>
 			</avatar>
-			
+			<!-- ==============================================
+			Main Start (Inicio do Corpo de Conteúdo)
+			=============================================== -->
 			<main>												
 				<section class="about">
 					<div class="container">
-						<div class="itens">			
-							
+						<div class="itens">										
 							<div class="foto">
 								<img src="images/curriculo-tag-miolo.png" alt="Curriculo TAG">
 								<!--<i class="fa fa-file-pdf-o"></i>-->
@@ -95,39 +101,241 @@
 							</div>
 
 							<div class="icone-coracao">
-								<i class="fa fa-heart"></i>
+								<i class="fa fa-calendar"></i>
 							</div>
 
 							<div class="icone-compartilhar">
-								<i class="fa fa-calendar"></i>
+								<i class="fa fa-users"></i>
 							</div>
-						</div>
-
-						<!--<div class="textos">
-							<p><strong>Lorem ipsum dolor sit amet</strong>, consectetur adipisicing elit. Aut in laborum, quos corrupti omnis ipsum reiciendis? Aspernatur, sequi eius! Nobis veniam eius autem dolores, doloribus deserunt est ex ea voluptatem.</p>
-
-							<a href="#" class="botao medio"><i class="fa fa-eye"></i> Continue Lendo</a>
-						</div>-->
+						</div>						
 					</div>
+				<div class="control-nav">			        
+					<a id="nextsection" href="#shortcodes"><i class="font-icon-arrow-simple-down"></i></a>
+				</div>	
 				</section>
-
-				<section class="presentation">
+				<!-- ==============================================
+			    Presentation (Apresentação Pessoal
+			    =============================================== -->
+				<section class="presentation" id="shortcodes">
 					<div class="container">
-						<div class="description">
+						<!-- Title Section -->
+					    <div class="row">
+					        <div class="col-sm-12">
+					            <div class="title-page">
+					                <h2 class="title">Presentation</h2>
+					                <h3 class="title-description">A little about myself.</h3>
+					            </div>
+					        </div>
+					    </div>
+					    <!-- End Title Section -->
+						<div class="description">							
 							<p><strong>Olá, Eu sou Elisandro Mello, Consultor de TI do Brasil.</strong></p>
 							<br>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
 							<br>
 							<p>Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
 
-							<a href="#" class="botao medio"><i class="fa fa-picture-o"></i>Portfolio</a>
+							<a href="#" class="botao grande"><i class="fa fa-picture-o"></i>Portfolio</a>
 						</div>
 						<div class="hero">
-							<img src="images/hero.png" alt="Foto Pessoal">	
+							<img class="foto-pessoal" src="images/hero.png" alt="Foto Pessoal">	
 						</div>
 					</div>
 				</section>
+				<!-- ==============================================
+			    Quotes (Citações)
+			    =============================================== -->
+				<section class="quotes">
+					<div class="container">
+						<!-- Title Section -->
+					    <div class="row">
+					        <div class="col-sm-12">
+					            <div class="title-page">
+					                <h2 class="title">Presentation</h2>
+					                <h3 class="title-description">A little about myself.</h3>
+					            </div>
+					        </div>
+					    </div>
+					    <!-- End Title Section -->        
+				        <!-- Start BlockQuote/Tooltip Section -->
+				        <div class="row">
+				        	<!-- Start Blockquote -->
+				            <div class="col-sm-6">
+				            	<h3 class="spec">Blockquote</h3>
+				                
+				            	<blockquote>
+					                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p>
+					                <small>
+				                    	<cite title="John Bostic">John Bostic</cite>
+				                    </small>
+				                </blockquote>
+				            </div>
+				            <!-- End Blockquote -->
+				            
+				            <!-- Start Tooltip -->
+				            <div class="col-sm-6">
+				            	<h3 class="spec">Tooltip</h3>
+				            	
+				                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas neque diam, luctus at laoreet in, <a href="#" data-toggle="tooltip" title="I'm a Simple Tootlip">auctor ut tellus</a>. Etiam enim lacus, ornare et tempor, rhoncus rhoncus sem.</p>
+				                
+				            </div>
+				            <!-- End Tootlip -->
+				        </div>
+				        <!-- End BlockQuote/Tooltip Section -->
+					</div>
+				</section>					
+				<!-- ==============================================
+			    Accordion Content (Acordeão de Conteúdo)
+			    =============================================== -->
+				<section class="accordion">
+					<div class="container">
+					    <!-- Title Page -->
+					    <div class="row">
+					        <div class="col-sm-12">
+					            <div class="title-page">
+					                <h2 class="title">Shortcodes</h2>
+					                <h3 class="title-description">Useful and Indispensable.</h3>
+					            </div>
+					        </div>
+					    </div>
+					    <!-- End Title Page -->
 
+					    <!-- Start Accordion/Toggle Section -->
+					    <div class="row">
+					    	<div class="col-sm-6">
+					        	<h3 class="spec">Accordion</h3>
+					            
+					        	<!-- Start Accordion -->
+					    		<div class="accordion" id="accordionArea">
+					                <div class="accordion-group">
+					                    <div class="accordion-heading accordionize">
+					                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea">
+					                            Design
+					                            <span class="font-icon-arrow-simple-down"></span>
+					                        </a>
+					                    </div>
+					                    <div id="oneArea" class="accordion-body collapse">
+					                        <div class="accordion-inner">
+					                            Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
+					                            Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. 
+					                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Donec sed odio dui. 
+					                            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. 
+					                            Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
+					                        </div>
+					                    </div>
+					                </div>
+					                
+					                <div class="accordion-group">
+					                    <div class="accordion-heading accordionize">
+					                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#twoArea">
+					                        Development
+					                        <span class="font-icon-arrow-simple-down"></span>
+					                    </a>
+					                    </div>
+					                    <div id="twoArea" class="accordion-body collapse">
+					                        <div class="accordion-inner">
+					                            Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
+					                            Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. 
+					                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Donec sed odio dui. 
+					                            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. 
+					                            Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
+					                        </div>
+					                    </div>
+					                </div>
+					                
+					                <div class="accordion-group">
+					                    <div class="accordion-heading accordionize">
+					                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#threeArea">
+					                        UX/UI
+					                        <span class="font-icon-arrow-simple-down"></span>
+					                    </a>
+					                    </div>
+					                    <div id="threeArea" class="accordion-body collapse">
+					                        <div class="accordion-inner">
+					                            Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
+					                            Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. 
+					                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Donec sed odio dui. 
+					                            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. 
+					                            Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
+					                        </div>
+					                    </div>
+					                </div>
+					        	</div>
+					            <!-- End Accordion -->
+					    	</div>
+					        
+					        <div class="col-sm-6">
+					        	<h3 class="spec">Toggle</h3>
+					            
+					        	<!-- Start Toggle -->
+					            <div class="accordion" id="toggleArea">
+					            
+					                <div class="accordion-group">
+					                    <div class="accordion-heading togglize">
+					                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseOne">
+					                            Responsive
+					                            <span class="font-icon-plus"></span>
+					                            <span class="font-icon-minus"></span>
+					                        </a>
+					                    </div>
+					                    <div id="collapseOne" class="accordion-body collapse">
+					                        <div class="accordion-inner">
+					                            Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
+					                            Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. 
+					                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Donec sed odio dui. 
+					                            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. 
+					                            Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
+					                        </div>
+					                    </div>
+					                </div>
+					                
+					                <div class="accordion-group">
+					                    <div class="accordion-heading togglize">
+					                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseTwo">
+					                        Logo Design
+					                        <span class="font-icon-plus"></span>
+					                        <span class="font-icon-minus"></span>
+					                    </a>
+					                    </div>
+					                    <div id="collapseTwo" class="accordion-body collapse">
+					                        <div class="accordion-inner">
+					                            Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
+					                            Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. 
+					                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Donec sed odio dui. 
+					                            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. 
+					                            Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
+					                        </div>
+					                    </div>
+					                </div>
+					                
+					                <div class="accordion-group">
+					                    <div class="accordion-heading togglize">
+					                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#" href="#collapseThird">
+					                        Branding
+					                        <span class="font-icon-plus"></span>
+					                        <span class="font-icon-minus"></span>
+					                    </a>
+					                    </div>
+					                    <div id="collapseThird" class="accordion-body collapse">
+					                        <div class="accordion-inner">
+					                            Donec sed odio dui. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
+					                            Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. Donec ullamcorper nulla non metus auctor fringilla. 
+					                            Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet. Donec sed odio dui. 
+					                            Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Nulla vitae elit libero, a pharetra augue. 
+					                            Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
+					                        </div>
+					                    </div>
+					                </div>
+					                
+					            </div>
+					            <!-- End Toggle -->
+					        </div>
+					    </div>
+					</div>
+				</section>
+				<!-- ==============================================
+			    Skill (Qualificações e Competências)
+			    =============================================== -->
 				<section class="skill">
 					<div class="container">
 						<div class="textos">
@@ -160,9 +368,12 @@
 								</h2>
 							</li>
 						</ul>
-						<a href="#" class="botao medio"><i class="fa fa-picture-o"></i>Portfolio</a>
+						<a href="#" class="botao grande"><i class="fa fa-picture-o"></i>Portfolio</a>
 					</div>
-				</section>
+				</section>				
+				<!-- ==============================================
+			    Historic (Histórico Profissional e Acadêmico)
+			    =============================================== -->
 				<section class="historic">
 					<div class="container">
 						<div class="professional">
@@ -199,8 +410,10 @@
 						</div>
 					</div>				
 				</section>
-
-				<section class="workers">
+				<!-- ==============================================
+			    Works (Trabalhos Realizados)
+			    =============================================== -->
+				<section class="works">
 					<div class="container">
 						<div class="portfolio">					
 							<h1>Meus Últimos Trabalhos</h1>
@@ -312,7 +525,7 @@
 				<!-- ==============================================
 			    Contatos (Mensagem e Infos de contato)
 			    =============================================== -->								
-				<section class="midias">
+				<section class="contact">
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-6">
@@ -357,7 +570,7 @@
 
 										<div class="form-group">
 											<!--<button class="botao medio"><i class="fa fa-envelope"></i> Contate-Me</button>-->
-											<a href="#" class="botao medio"><i class="fa fa-envelope"></i>Contate-Me!</a>
+											<a href="#" class="botao grande"><i class="fa fa-envelope"></i>Contate-Me!</a>
 										</div>
 
 									</form>
@@ -398,7 +611,6 @@
 			<!-- ==============================================
 			    Footer (Rodapé)
 			    =============================================== -->
-
 				<section class="social-links">
 				  <div class="container">
 				    <div class="row">
@@ -432,9 +644,22 @@
 				  </div>
 				</section>				
 			</footer>
+			<!-- Back To Top -->
+			<a id="back-to-top" href="#">
+				<i class="font-icon-arrow-simple-up"></i>
+			</a>
+			<!-- End Back to Top -->
+
 		</div>
 
 		<script src="public/bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="public/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script> <!-- Bootstrap -->
+		<script src="public/bower_components/jquery.scrollTo/jquery.scrollTo.min.js"></script> <!-- ScrollToTop -->		
+		<script src="public/bower_components/jquery.easing/js/jquery.easing.min.js"></script> <!-- Easing -->
+		<script src="public/bower_components/jpreloader/js/jpreloader.min.js"></script> <!-- PreLoader -->
+		<script src="js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+		<script src="js/main.js"></script> <!-- Default JS -->
+
 		<script>
 			$(function(){
 				
