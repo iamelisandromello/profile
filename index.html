@@ -11,7 +11,8 @@
 		<link rel="stylesheet" href="css/controlnav.css">
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="css/blockquotes.css">
-		<link rel="stylesheet" href="css/tooltip.css">
+		<link rel="stylesheet" href="css/tooltip.css">		
+		<link rel="stylesheet" href="css/nav.css">
 	</head>
 	<body>
 		<!-- This section is for Splash Screen -->
@@ -20,50 +21,38 @@
 		</section>
 		<!-- End of Splash Screen -->
 
-		<nav class="menu-responsivo">
-			<ul>
-				<li><a  href="index.html">Início</a></li>
-				<li><a  href="#recomendations">Recomentaions</a></li>
-				<li><a  href="#skill">Skill</a></li>
-				<li><a  href="#historic">Historic</a></li>				
-			</ul>
-		</nav>		
+		<!-- ==============================================
+		        Navbar
+		 =============================================== -->
+		<div id="home-nav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+		      <a class="navbar-brand" href="#home"> 
+		        <!-- Logo Header -->
+		        <section id="foxin" class="foxin">
+		          <div> <img src="images/Logo_Navbar.png" alt="Foxin by Elisandro Mello"> </div>
+		        </section>
+		        <!--/ Logo Header--> 
+		      </a>
+		    </div>
+		    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#home">Home</a></li>
+		        <li><a href="#recommentandations">Quotes</a></li>
+		        <li><a href="#history">History</a></li>
+		        <li><a href="#skills">Skill</a></li>
+		        <li><a href="#mural">Mural</a></li>
+		        <li><a href="#portfolio">Portfolio</a></li>
+		        <li><a href="#contact">Contact</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</div>
 
 		<div class="layout">
 			<header>
 				<div class="container">
-					<div class="logo">
-						<a href="index.html">
-							<img src="images/logo_profile210Branco.png" alt="Logo Topo Tag">
-						</a>
-					</div>
-					<div class="links">
-						<nav>
-							<ul>
-								<li><a  href="index.html">Início</a></li>
-								<li><a  href="#recomendations">Recomentaions</a></li>
-								<li><a  href="#skill">Skill</a></li>
-								<li><a  href="#historic">Historic</a></li>
-							</ul>
-						</nav>
-
-						<a class="toggle" href="javascript:;">
-							<span></span>
-							<span></span>
-							<span></span>
-						</a>
-
-						<ul class="social">
-							<li>
-								<a href="#"><i class="fa fa-facebook"></i></a>
-							</li>
-
-							<li>
-								<a href="#"><i class="fa fa-github"></i></a>
-							</li>
-						</ul>
-						
-					</div>
 					<div class="avatar-top">
 						<img class="avatar-lg wow bounceIn" src="images/elisandromello.jpg" >
 					</di>	
@@ -713,16 +702,6 @@
 		<script src="public/bower_components/jpreloader/js/jpreloader.min.js"></script> <!-- PreLoader -->
 		<script src="js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
 		<script src="js/main.js"></script> <!-- Default JS -->
-
-		<script>
-			$(function(){
-				
-				$('.toggle').click(function(){
-					$('.layout').toggleClass('ativo');
-					$('.menu-responsivo').toggleClass('ativo');
-					$(this).toggleClass('ativo');
-				});
-			});
-		</script>
+		<script src="js/iamkevinrhodes.js"></script> <!-- Default JS -->				
 	</body>
 </html>
