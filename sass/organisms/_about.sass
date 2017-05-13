@@ -1,50 +1,22 @@
-section.about
-	.itens
-		+flexbox
-		+align-items(center)
-		+justify-content(space-around)
-		margin: 30px 0 30px 0
-		text-align: center
+@import atoms/picture-charges
+@import atoms/charge
+@import molecules/star-charge
 
-		+make-sm-column(10)
-		+make-sm-column-offset(1)
+.aboutme-title h4
+  font-family: 'Satisfy'
+  font-weight: 100
+  letter-spacing: 2px
+  text-transform:capitalize
 
-		+breakpoint($tablet)
-			display: block
+.aboutme-title h5
+  font-size: 15px
+  font-family: 'Inconsolata'
+  letter-spacing: 1px
+  padding: 0 0 5px 0
 
-		.foto
-			+order(3)
-			+breakpoint($tablet)
-				margin: 0 0 30px
-
-				
-
-		[class^="icone-"]
-			width: 90px
-			height: 90px
-			background-color: $elementos
-			+border-radius(120px)
-			text-align: center
-			line-height: 85px
-			color: $branco
-			+font-size(55px)
-
-			+breakpoint($tablet)
-				display: inline-block
-				width: 75px
-				height: 75px
-				line-height: 75px
-				+font-size(50px)
-				margin: 0 3px
-
-			&.icone-lapis
-				+order(1)
-
-			&.icone-codigo
-				+order(2)
-
-			&.icone-coracao
-				+order(4)
-
-			&.icone-compartilhar
-				+order(5)
+.aboutme-title span
+  font-size: 15px
+  font-family: 'Inconsolata'
+  letter-spacing: 1px
+  color: #757575
+  font-weight: 500

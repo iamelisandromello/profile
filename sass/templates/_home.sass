@@ -1,27 +1,16 @@
-@import organisms/about
-@import molecules/textos
-
-header
-	height: 260px
-	min-height: 215px !important
-	margin: 0 0 25px
-	background:
-		image: url('../images/fundo_topo_hero.jpg')
-		position: top center
-		repeat: no-repeat
-		color: $preto
-		attachment: fixed
-
-
-avatar
-	.avatar-bottom
-		+gradient(90deg, $mojito2, $mojito1)
+@import organisms/form-modal
+@import organisms/avatar-contactme
+@import molecules/home-infolist
+@import molecules/title-sessionResume
+@import molecules/title-main
+@import molecules/texto-profileit
+@import molecules/meter
+@import atoms/texto-resumo
+@import atoms/subtitulo
+@import atoms/subtituloItem
+@import organisms/update-menu
 
 main
-	.about
+	.update-menu
+		padding-top: 100px
 		+gradient(90deg, $mojito2, $mojito1)
-
-	.skill
-		+gradient(90deg, $light-grey1, $light-grey2)
-	.presentation
-		+gradient(90deg, $sand1, $sand2)

@@ -21,5 +21,8 @@
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
     "gulp-watch": "^4.3.10"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0"
   }
 }

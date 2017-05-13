@@ -2,32 +2,30 @@ jQuery(function($){
 
 var BRUSHED = window.BRUSHED || {};
 
-/* ==================================================
-   Next Section
-================================================== */
 
-BRUSHED.goSection = function(){
-	$('#nextsection').on('click', function(){
-		$target = $($(this).attr('href')).offset().top-30;
-		
-		$('body, html').animate({scrollTop : $target}, 750, 'easeOutExpo');
-		return false;
+
+/*============================================
+Navbar
+==============================================*/
+
+BRUSHED.scroll = function(){
+	$(window).scroll(function(){
+		if($(window).scrollTop() <= 50) {
+			$("#home-nav").removeClass("scroll");
+	    } else {
+	        $("#home-nav").addClass("scroll");
+	    }
 	});
 }
 
-/* ==================================================
-   GoUp
-================================================== */
-
-BRUSHED.goUp = function(){
-	$('#goUp').on('click', function(){
-		$target = $($(this).attr('href')).offset().top-30;
-		
-		$('body, html').animate({scrollTop : $target}, 750, 'easeOutExpo');
-		return false;
+/*============================================
+Closes the Responsive Menu on Menu Item Click
+==============================================*/
+BRUSHED.colapse = function(){
+	$('.navbar-collapse ul li a').click(function() {
+	    $('.navbar-toggle:visible').click();
 	});
 }
-
 
 /* ==================================================
 	Scroll to Top
@@ -113,6 +111,36 @@ BRUSHED.toolTip = function(){
 }
 
 
+
+/*============================================
+Flexslider for quotes
+==============================================*/
+
+BRUSHED.quote = function(){ 
+	$('.quote-slider').flexslider({
+		slideshowSpeed: 5000,
+		useCSS: true,
+		pauseOnAction: false, 
+		pauseOnHover: true,
+		directionNav: false,
+		animation: 'slide'
+	});
+}
+
+
+/*============================================
+WOW animations
+==============================================*/
+BRUSHED.wow = function(){ 
+	wow = new WOW(
+    {
+      offset:       200,          // default
+      mobile: false
+    }
+  	)
+  	wow.init();
+}
+
 /* ==================================================
 	Init
 ================================================== */
@@ -129,13 +157,14 @@ $(document).ready(function(){
 			$('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
 		}
 	});
-	
-	BRUSHED.goSection();
-	BRUSHED.goUp();
+	BRUSHED.scroll();
+	BRUSHED.colapse();
 	BRUSHED.scrollToTop();
 	BRUSHED.accordion();
 	BRUSHED.toggle();
 	BRUSHED.toolTip();
+	BRUSHED.quote();
+	BRUSHED.wow();
 });
 
 
